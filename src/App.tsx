@@ -10,7 +10,6 @@ const App: React.FC<AppProps> = () => {
   return (
     <div>
       <AboutMe />
-      <ClickCount />
     </div>
   )
 }
