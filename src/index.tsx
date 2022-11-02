@@ -8,7 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import styles from './index.module.scss';
+import './index.module.scss';
 import Navbar from './components/navbar/navbar';
 import AboutMe from './components/aboutMe/aboutMe';
 

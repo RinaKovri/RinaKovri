@@ -11,7 +11,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
             <h1>Welcome to my page!</h1>
             <h2>My name is Ekaterina Kovrizhina.</h2>
             <h3>I am a studying programming at Varia.</h3>
-            <h4>Here you can find my CV and some of my projects.</h4>
+            <h3>Here you can find my CV and some of my projects.</h3>
         </div>
     )
 }
