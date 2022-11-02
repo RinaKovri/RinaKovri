@@ -1,6 +1,7 @@
 import React from 'react'
 import ClickCount from './components/clickCount'
 import AboutMe from './components/aboutMe/aboutMe'
+import Footer from './components/footer/footer'
 
 type AppProps = {
 
