@@ -10,6 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import styles from './components/index.module.scss';
+import Navbar from './components/navbar/navbar';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +18,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='example' element={<SomeExampleComponent />} />
