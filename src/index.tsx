@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MyFirstComponent from './components/myFirstComponent';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
@@ -13,6 +11,8 @@ import Navbar from './components/navbar/navbar';
 import AboutMe from './components/aboutMe/aboutMe';
 import Footer from './components/footer/footer';
 import Cv from './components/sites/cv';
+import Projects from './components/sites/projects';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,9 +22,9 @@ root.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path='/' element={<App />}></Route>
+        <Route path='aboutMe' element={<AboutMe />}></Route>
         <Route path='cv' element={<Cv />} />
-        <Route path='/first' element={<MyFirstComponent />} />
+        <Route path='projects' element={<Projects />} />
       </Routes>
       <Footer />
     </BrowserRouter>

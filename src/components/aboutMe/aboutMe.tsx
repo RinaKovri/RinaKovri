@@ -8,7 +8,9 @@ type AboutMeProps = {
 const AboutMe: React.FC<AboutMeProps> = () => {
     return (
         <div className={styles.container}>
-            <h1>Welcome to my page!</h1>
+            <div className={styles.anim}>
+            <h1><span>Welcome to my page!</span></h1>
+            </div>
             <h2>My name is Ekaterina Kovrizhina.</h2>
             <h3>I am a studying programming at Varia.</h3>
             <h3>Here you can find my CV and some of my projects.</h3>
