@@ -10,17 +10,14 @@ const Cv: React.FC<CvProps> = () => {
     <div className={styles.container}>
       <div className={styles.anim}>
         <h1><span>CV</span></h1>
-          <h2><span>Education</span></h2>
-          <div className={styles.text}>
-            <p className={styles.years}><span>2021-now</span></p>
-            <p><span>Varia ammattiopisto, Vantaa, Information and communication technologies, Bachelor's degree</span></p>
-            <p className={styles.years}><span>2016-2019</span></p>
-            <p><span>Synergy Univercity, Moscow, Bachelor's degree, Human Resources</span></p>
-            <p className={styles.years}><span>2005-2010</span></p>
-            <p><span>INGECON Univercity, St.Petersburg, Bachelor's degree, PR</span></p>
-          </div>
-        </div>
-        <div>
+        <h2><span>Education</span></h2>
+        <div className={styles.text}>
+          <p className={styles.years}><span>2021-now</span></p>
+          <p><span>Varia ammattiopisto, Vantaa, Information and communication technologies, Bachelor's degree</span></p>
+          <p className={styles.years}><span>2016-2019</span></p>
+          <p><span>Synergy Univercity, Moscow, Bachelor's degree, Human Resources</span></p>
+          <p className={styles.years}><span>2005-2010</span></p>
+          <p><span>INGECON Univercity, St.Petersburg, Bachelor's degree, PR</span></p>
           <h2><span>Experience</span></h2>
           <div className={styles.text}>
             <p className={styles.years}><span>2021-now</span></p><p><span>Varia ammattiopisto, student</span></p>
@@ -30,6 +27,7 @@ const Cv: React.FC<CvProps> = () => {
           </div>
         </div>
       </div>
+    </div>
   )
 }
 

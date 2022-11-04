@@ -16,6 +16,8 @@ h1 {
 }
 
 .anim {
+  width: 80%;
+  max-width: 720px;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
