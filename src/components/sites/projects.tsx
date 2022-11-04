@@ -9,35 +9,36 @@ const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div className={styles.container}>
       <div className={styles.cardList}>
-        <div className={styles.cardBody}>
-          <h4 className={styles.cardTitle}>HTML</h4>
-          <button className={styles.btn}>GitHub
-          <a href='https://github.com/RinaKovri/Lagoona'></a>
-          </button>
+          <div className={styles.cardBody}>
+            <h4 className={styles.cardTitle}>HTML</h4>
+            <p>I have started to learn HTML and CSS with online courses in Russia. That was my school project</p>
+            <button className={styles.btn}>GitHub
+              <a href='https://github.com/RinaKovri/Lagoona'></a>
+            </button>
           </div>
         <div className={styles.cardBody}>
           <h4 className={styles.cardTitle}>C#</h4>
           <button className={styles.btn} >GitHub
-          <a href='https://github.com/RinaKovri/OwnGame'></a>
+            <a href='https://github.com/RinaKovri/OwnGame'></a>
           </button>
-          </div>
+        </div>
         <div className={styles.cardBody}>
           <h4 className={styles.cardTitle}>Python</h4>
           <button className={styles.btn}>GitHub
-          <a href='https://github.com/RinaKovri/calculator_python'></a>
+            <a href='https://github.com/RinaKovri/calculator_python'></a>
           </button>
-          </div>
+        </div>
         <div className={styles.cardBody}>
-          <h4 className={styles.cardTitle}>Typescript, React</h4>
+          <h4 className={styles.cardTitle}>React</h4>
           <button className={styles.btn}>GitHub
-          <a href='https://github.com/RinaKovri/portfolio'></a>
-          </button> 
+            <a href='https://github.com/RinaKovri/portfolio'></a>
+          </button>
         </div>
         <div className={styles.cardBody}>
           <h4 className={styles.cardTitle}>Unity</h4>
           <button className={styles.btn}>PlayUnity
-          <a href='https://play.unity.com/u/RinaKovrizhina'></a>
-          </button> 
+            <a href='https://play.unity.com/u/RinaKovrizhina'></a>
+          </button>
         </div>
       </div>
     </div>
