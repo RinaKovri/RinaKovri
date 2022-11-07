@@ -11,7 +11,6 @@ const Projects: React.FC<ProjectsProps> = () => {
       <div className={styles.cardList}>
           <div className={styles.cardBody}>
             <h4 className={styles.cardTitle}>HTML</h4>
-            <p>I have started to learn HTML and CSS with online courses in Russia. That was my school project</p>
             <button className={styles.btn}>GitHub
               <a href='https://github.com/RinaKovri/Lagoona'></a>
             </button>
