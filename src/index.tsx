@@ -12,6 +12,7 @@ import AboutMe from './components/aboutMe/aboutMe';
 import Footer from './components/footer/footer';
 import Cv from './components/sites/cv';
 import Projects from './components/sites/projects';
+import App from './App';
 
 
 const root = ReactDOM.createRoot(
@@ -22,6 +23,7 @@ root.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
+        <Route path='/' element={<App />}></Route>
         <Route path='aboutMe' element={<AboutMe />}></Route>
         <Route path='cv' element={<Cv />} />
         <Route path='projects' element={<Projects />} />
