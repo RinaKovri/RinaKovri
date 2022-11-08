@@ -6,14 +6,8 @@
 }
 
 .cardList {
-    width: 80%;
-    display: inline-flex;
-    flex-wrap:initial;
+    display:flex;
     justify-content: space-around;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto; 
 }
 
 .cardBody {
@@ -54,7 +48,6 @@
 
 .cardBody:hover {
     transform: scale(1.1);
-    cursor: pointer;
 }
 
 .btn:hover {

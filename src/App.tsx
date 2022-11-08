@@ -1,5 +1,5 @@
 import React from 'react'
-import ClickCount from './components/clickCount'
+import Click from './components/click'
 import AboutMe from './components/aboutMe/aboutMe'
 import Footer from './components/footer/footer'
 import Navbar from './components/navbar/navbar'

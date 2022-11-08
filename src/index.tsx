@@ -11,6 +11,7 @@ import Navbar from './components/navbar/navbar';
 import AboutMe from './components/aboutMe/aboutMe';
 import Footer from './components/footer/footer';
 import Cv from './components/sites/cv';
+import Click from './components/click';
 import Projects from './components/sites/projects';
 import App from './App';
 
@@ -28,6 +29,7 @@ root.render(
         <Route path='cv' element={<Cv />} />
         <Route path='projects' element={<Projects />} />
       </Routes>
+      <Click />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>
