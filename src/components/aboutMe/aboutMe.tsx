@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './aboutMe.module.scss'
-import Dandelion_white from './dandelion_white.png';
 
 
 type AboutMeProps = {
@@ -12,7 +11,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         <div className={styles.container}>
             <div className={styles.body}>
             <div className={styles.anim}>
-                <h1><span>Welcome to my page!</span></h1>
+                <h1 className={styles.h1}><span>Welcome to my page!</span></h1>
             </div>
             <h2>My name is Ekaterina Kovrizhina.</h2>
             <h3>I am a studying programming at Varia.</h3>

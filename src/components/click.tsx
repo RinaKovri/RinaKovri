@@ -6,16 +6,16 @@ type ClickProps = {
 }
 
 const Click: React.FC<ClickProps> = () => {
-    const [count, setCount] = useState(0);
-
-    useEffect(() => {
-        document.title = `Clicked the button ${count} times`;
-    });
+/*var boxElement = document.querySelector('box');
+boxElement?.addEventListener('transitioned', ontransitionend);*/
 
     return (
         <div className={styles.container}>
             <div>
-                <button className={styles.flower} onClick={() => setCount(count + 1)} >Click me</button>
+                <button className={styles.flower} /*onClick={() => setCount(count + 1)}*/ >Click me</button>
+            </div>
+            <div>
+                <button className={styles.box}></button>
             </div>
         </div>
     )
