@@ -1,3 +1,5 @@
+
+[![Build and Deploy](https://github.com/RinaKovri/portfolio/actions/workflows/BuildAndDeploy.yml/badge.svg)](https://github.com/RinaKovri/portfolio/actions/workflows/BuildAndDeploy.yml)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
