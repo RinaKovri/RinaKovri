@@ -69,6 +69,7 @@ h4 {
   color: rgb(9, 9, 88, 0.7);
   font-size: 20px;
   font-weight: bold;
+  animation: spin 30s linear infinite;
   -webkit-animation: spin 30s linear infinite;
   -moz-animation: spin 30s linear infinite;
   animation-name: spin 30s linear infinite;
