@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React /*{ useState, useEffect, useRef }*/ from 'react';
 import styles from './click.module.scss';
 
 
@@ -18,7 +18,7 @@ const Click: React.FC<ClickProps> = () => {
     return (
         <div className={styles.container}>
             <div className={styles.img}>
-                <img className={styles.wing}></img>
+                <img className={styles.wing} alt="flower"></img>
             </div>
         </div>
     )
