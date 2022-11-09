@@ -1,5 +1,6 @@
-import React from 'react'
-import styles from './aboutMe.module.scss'
+import React from 'react';
+import styles from './aboutMe.module.scss';
+
 
 
 type AboutMeProps = {
@@ -17,6 +18,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
             <h3>I am a studying programming at Varia.</h3>
             <h3>Here you can find my CV and some of my projects.</h3>
             </div>
+            <button className={styles.flower}>Blow</button>
         </div>
     )
 }
