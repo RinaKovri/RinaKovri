@@ -22,7 +22,7 @@ root.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path='/' element={<App />}></Route>
+        <Route path='.' element={<App />}></Route>
         <Route path='aboutMe' element={<AboutMe />}></Route>
         <Route path='cv' element={<Cv />} />
         <Route path='projects' element={<Projects />} />
