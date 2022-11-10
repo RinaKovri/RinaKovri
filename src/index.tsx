@@ -13,7 +13,6 @@ import Footer from './components/footer/footer';
 import Cv from './components/sites/cv';
 import Projects from './components/sites/projects';
 import App from './App';
-import Click from './components/click';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,7 +27,6 @@ root.render(
         <Route path='cv' element={<Cv />} />
         <Route path='projects' element={<Projects />} />
       </Routes>
-      <Click />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>

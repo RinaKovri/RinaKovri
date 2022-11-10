@@ -18,7 +18,7 @@ const Click: React.FC<ClickProps> = () => {
     return (
         <div className={styles.container}>
             <div className={styles.img}>
-                <img className={styles.wing} alt="flower"></img>
+                
             </div>
         </div>
     )
