@@ -35,14 +35,14 @@ h2 {
   font-family: papyrus;
   color: rgb(9, 9, 88, 0.7);
   margin: 1px;
-  padding: 5px;
+  padding: 15px;
 }
 
 h3 {
   font-family: papyrus;
   color: rgb(9, 9, 88, 0.7);
   margin: 1px;
-  padding: 5px;
+  padding: 15px;
 }
 
 h4 {
@@ -50,7 +50,7 @@ h4 {
   font-size: 15px;
   color: rgb(9, 9, 88, 0.7);
   margin: 1px;
-  padding: 5px;
+  padding: 15px;
 }
 
 .flower {
@@ -58,8 +58,8 @@ h4 {
   border: none;
   width: 50px;
   height: 50px;
-  bottom: 20px;
-  padding: 150px 100px 100px 120px;
+  bottom: 70px;
+  padding: 130px 100px 100px 80px;
   background-blend-mode: multiply;
   background-image: url(flower.png);
   background-position: top;
@@ -105,30 +105,26 @@ h4 {
   position: relative;
   width: 5px;
   height: 10px;
-  border: none;
-  bottom: 160px;
-  right: 600px;
+  margin-left: 500px;
   padding: 15px 15px 20px 15px;
   background-blend-mode: multiply;
   background-image: url(wing.png);
   transform: rotate(50deg);
-  opacity: 0.5;
-  margin-left: 500px;
-  background-position: top;
+  opacity: 0.4;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(76, 64, 169, 0);
   animation: fly linear infinite;
-  animation-delay: fly 5s;
-  animation-duration: 30s;
+  animation-duration: 20s;
 }
 
 @keyframes fly {
-  0%   {right:450px; bottom:180px;}
-  25%  {right:300px; bottom:260px;}
-  50%  {right:200px; bottom:360px;}
-  75%  {right:100px; bottom:460px;}
-  100% {right:0px; bottom:630px;}
+  0%   {right:450px; bottom:250px;}
+  25%  {right:300px; bottom:400px;}
+  50%  {right:200px; bottom:500px;}
+  75%  {right:100px; bottom:600px;}
+  100% {right:0px; bottom:700px;}
 }
 
 .wing1 {
@@ -136,28 +132,24 @@ h4 {
   position: relative;
   width: 5px;
   height: 10px;
-  border: none;
-  bottom: 160px;
-  right: 600px;
+  margin-left: 500px;
   padding: 15px 15px 20px 15px;
   background-blend-mode: multiply;
   background-image: url(wing.png);
   transform: rotate(30deg);
-  opacity: 0.5;
-  margin-left: 500px;
-  background-position: top;
+  opacity: 0.4;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(76, 64, 169, 0);
   animation: fly1 linear infinite;
-  animation-delay: fly1 5s;
-  animation-duration: 30s;
+  animation-duration: 20s;
 }
 
 @keyframes fly1 {
   0%   {right:450px; bottom:200px;}
-  25%  {right:420px; bottom:280px;}
-  50%  {right:350px; bottom:380px;}
+  25%  {right:420px; bottom:300px;}
+  50%  {right:350px; bottom:400px;}
   75%  {right:250px; bottom:500px;}
   100% {right:200px; bottom:630px;}
 }
@@ -167,30 +159,26 @@ h4 {
   position: relative;
   width: 5px;
   height: 10px;
-  border: none;
-  bottom: 160px;
-  right: 600px;
+  margin-left: 500px;
   padding: 15px 15px 20px 15px;
   background-blend-mode: multiply;
   background-image: url(wing.png);
   transform: rotate(10deg);
-  opacity: 0.5;
-  margin-left: 500px;
-  background-position: top;
+  opacity: 0.4;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(76, 64, 169, 0);
-  animation: fly2 linear infinite;
-  animation-delay: fly2 5s;
-  animation-duration: 30s;
+  animation: fly2 linear;
+  animation-duration: 20s;
 }
 
 @keyframes fly2 {
-  0%   {right:450px; bottom:180px;}
-  25%  {right:450px; bottom:260px;}
-  50%  {right:450px; bottom:360px;}
-  75%  {right:450px; bottom:460px;}
-  100% {right:450px; bottom:630px;}
+  0%   {right:400px; bottom:210px;}
+  25%  {right:440px; bottom:350px;}
+  50%  {right:430px; bottom:500px;}
+  75%  {right:420px; bottom:600px;}
+  100% {right:410px; bottom:650px;}
 }
 
 .wing3 {
@@ -198,28 +186,131 @@ h4 {
   position: relative;
   width: 5px;
   height: 10px;
-  border: none;
-  bottom: 160px;
-  right: 600px;
+  margin-left: 500px;
   padding: 15px 15px 20px 15px;
   background-blend-mode: multiply;
   background-image: url(wing.png);
-  transform: rotate(50deg);
-  opacity: 0.5;
-  margin-left: 500px;
-  background-position: top;
+  opacity: 0.4;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(76, 64, 169, 0);
   animation: fly3 linear infinite;
-  animation-delay: fly3 5s;
-  animation-duration: 30s;
+  animation-duration: 20s;
 }
 
 @keyframes fly3 {
-  0%   {right:450px; bottom:180px;}
-  25%  {right:300px; bottom:260px;}
-  50%  {right:200px; bottom:360px;}
-  75%  {right:100px; bottom:460px;}
-  100% {right:0px; bottom:630px;}
+  0%   {right:350px; bottom:250px;}
+  25%  {right:300px; bottom:400px;}
+  50%  {right:250px; bottom:560px;}
+  75%  {right:150px; bottom:660px;}
+  100% {right:50px; bottom:730px;}
+}
+
+.wing4 {
+  display: flex;
+  position: relative;
+  width: 5px;
+  height: 10px;
+  margin-left: 500px;
+  padding: 15px 15px 20px 15px;
+  background-blend-mode: multiply;
+  background-image: url(wing.png);
+  transform: rotate(5deg);
+  opacity: 0.4;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(76, 64, 169, 0);
+  animation: fly4 linear infinite;
+  animation-duration: 20s;
+}
+
+@keyframes fly4 {
+  0%   {right:350px; bottom:430px;}
+  25%  {right:300px; bottom:580px;}
+  50%  {right:250px; bottom:620px;}
+  75%  {right:150px; bottom:700px;}
+  100% {right:50px; bottom:730px;}
+}
+
+.wing5 {
+  display: flex;
+  position: relative;
+  width: 5px;
+  height: 10px;
+  margin-left: 500px;
+  padding: 15px 15px 20px 15px;
+  background-blend-mode: multiply;
+  background-image: url(wing.png);
+  transform: rotate(13deg);
+  opacity: 0.4;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(76, 64, 169, 0);
+  animation: fly5 linear infinite;
+  animation-duration: 20s;
+}
+
+@keyframes fly5 {
+  0%   {right:350px; bottom:430px;}
+  25%  {right:300px; bottom:590px;}
+  50%  {right:250px; bottom:750px;}
+  75%  {right:150px; bottom:810px;}
+  100% {right:50px; bottom:850px;}
+}
+
+.wing6 {
+  display: flex;
+  position: relative;
+  width: 5px;
+  height: 10px;
+  margin-left: 500px;
+  padding: 15px 15px 20px 15px;
+  background-blend-mode: multiply;
+  background-image: url(wing.png);
+  transform: rotate(-30deg);
+  opacity: 0.4;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(76, 64, 169, 0);
+  animation: fly6 linear infinite;
+  animation-duration: 20s;
+}
+
+@keyframes fly6 {
+  0%   {right:350px; bottom:420px;}
+  25%  {right:360px; bottom:660px;}
+  50%  {right:370px; bottom:700px;}
+  75%  {right:380px; bottom:750px;}
+  100% {right:390px; bottom:800px;}
+}
+
+.wing7 {
+  display: flex;
+  position: relative;
+  width: 5px;
+  height: 10px;
+  margin-left: 500px;
+  padding: 15px 15px 20px 15px;
+  background-blend-mode: multiply;
+  background-image: url(wing.png);
+  transform: rotate(-50deg);
+  opacity: 0.4;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(76, 64, 169, 0);
+  animation: fly7 linear infinite;
+  animation-duration: 20s;
+}
+
+@keyframes fly7 {
+  0%   {right:350px; bottom:450px;}
+  25%  {right:370px; bottom:600px;}
+  50%  {right:400px; bottom:650px;}
+  75%  {right:420px; bottom:700px;}
+  100% {right:450px; bottom:750px;}
 }

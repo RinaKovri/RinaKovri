@@ -18,11 +18,15 @@ const AboutMe: React.FC<AboutMeProps> = () => {
             <h3>I am a studying programming at Varia.</h3>
             <h3>Here you can find my CV and some of my projects.</h3>
             </div>
-            <div className={styles.flower} title="Blow on me"></div>
+            <div className={styles.flower}></div>
             <div className={styles.wing}></div>
             <div className={styles.wing1}></div>
             <div className={styles.wing2}></div>
             <div className={styles.wing3}></div>
+            <div className={styles.wing4}></div>
+            <div className={styles.wing5}></div>
+            <div className={styles.wing6}></div>
+            <div className={styles.wing7}></div>
         </div>
     )
 }
