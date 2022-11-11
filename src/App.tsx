@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutMe from './components/aboutMe/aboutMe'
+import Home from './components/home/home'
 
 type AppProps = {
 
@@ -8,7 +8,7 @@ type AppProps = {
 const App: React.FC<AppProps> = () => {
   return (
     <div>
-      <AboutMe />
+      <Home />
     </div>
   )
 }

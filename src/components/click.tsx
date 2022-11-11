@@ -1,24 +1,22 @@
-import React /*{ useState, useEffect, useRef }*/ from 'react';
+import { count } from 'console';
+import React, { useState, useEffect } from 'react';
 import styles from './click.module.scss';
-
 
 type ClickProps = {
 
 }
 
 const Click: React.FC<ClickProps> = () => {
-// const img
 
-// useEffect(() => {
-    // img.addEventListener('click', (moveUp) => {
 
-    // })
-// })
 
     return (
         <div className={styles.container}>
-            <div className={styles.img}>
-                
+            <div>
+                {/* <button onClick={() => setCount(count + 1)} >Click me</button> */}
+            </div>
+            <div>
+                <button className={styles.box}></button>
             </div>
         </div>
     )

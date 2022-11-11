@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     <div className={styles.container}>
       <ul className={styles.links}>
         <li>
-        <Link to="/">About Me</Link>
+        <Link to="aboutMe">About Me</Link>
         </li>
         <li>
           <Link to="cv">CV</Link>

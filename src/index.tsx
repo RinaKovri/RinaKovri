@@ -8,10 +8,11 @@ import {
 } from "react-router-dom";
 import './index.module.scss';
 import Navbar from './components/navbar/navbar';
-import AboutMe from './components/aboutMe/aboutMe';
+import Home from './components/home/home';
 import Footer from './components/footer/footer';
 import Cv from './components/sites/cv';
 import Projects from './components/sites/projects';
+import AboutMe from './components/sites/aboutMe';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,7 +22,8 @@ root.render(
     <BrowserRouter basename='/portfolio'>
     <Navbar />
       <Routes>
-        <Route path='/' element={<AboutMe />} />
+        <Route path='/' element={<Home />} />
+        <Route path='aboutMe' element={<AboutMe />} />
         <Route path='cv' element={<Cv />} />
         <Route path='projects' element={<Projects />} />
       </Routes>
