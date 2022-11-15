@@ -5,7 +5,7 @@
   margin-right: 50px;
   display: flex;
   flex-wrap: wrap;
-  background: rgba(76, 64, 169, 0.4);
+  background-color:  rgb(194, 195, 217, 0.5);
 }
 
 .body {
@@ -14,4 +14,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.h2 {
+    font-family: papyrus;
+    color:rgb(57, 46, 136)
+}
+
+.h3 {
+    font-family: papyrus;
+    color:rgb(57, 46, 136)
+}
+.h4 {
+    font-family: papyrus;
+    color:rgb(57, 46, 136)
+}
+.text {
+    font-family: papyrus;
+    color:rgb(57, 46, 136)
 }

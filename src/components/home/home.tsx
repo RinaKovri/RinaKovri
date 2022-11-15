@@ -9,7 +9,7 @@ type HomeProps = {
 
 const Wing = () => {
     console.log('create element');
-    return <div className={styles.wing}></div>;
+    return (<div className={styles.wing}></div>);
 }
 
 const Input = () => {
