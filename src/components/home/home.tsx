@@ -1,4 +1,4 @@
-//import React, { ReactElement, useState } from 'react';
+import React, { ReactElement, useState } from 'react';
 import styles from './home.module.scss';
 
 
@@ -7,24 +7,36 @@ type HomeProps = {
 
 }
 
-// const Wing = () => {
-//     console.log('create element');
-//     return (<div className={styles.wing}></div>);
-// }
+const Wing = () => {
+    console.log('create element');
+    // return (<div className={styles.wing} />);
+    return (
+        <>
+            <div className={styles.wing} />
+            <div className={styles.wing1}></div>
+            <div className={styles.wing2}></div>
+            <div className={styles.wing3}></div>
+            <div className={styles.wing4}></div>
+            <div className={styles.wing5}></div>
+            <div className={styles.wing6}></div>
+            <div className={styles.wing7}></div>
+        </>
+    )
+}
 
-// const Input = () => {
-//     return <input placeholder="Your input here" />;
-// };
+const Input = () => {
+    return <input placeholder="Your input here" />;
+};
 
 const Home: React.FC<HomeProps> = () => {
-    // var a = Array()
-    // //a.push(<Wing />)
-    // const [inputList, setInputList] = useState(a);
+    var a = Array()
+    //a.push(<Wing />)
+    const [inputList, setInputList] = useState(a);
 
-    // const onAddBtnClick = () => {
-    //     console.log('test')
-    //     setInputList(inputList.concat({}))
-    // };
+    const onAddBtnClick = () => {
+        console.log('test')
+        setInputList(inputList.concat({}))
+    };
 
     return (
         <div className={styles.container}>
@@ -36,24 +48,27 @@ const Home: React.FC<HomeProps> = () => {
                 <h3>Have a look at my CV and 'about me' section and feel free to contact me any time!</h3>
                 <h3>Looking forward to hearing from you soon!</h3>
             </div>
-            <div className={styles.flower}></div>
-            <div className={styles.wing}></div>
-            <div className={styles.wing1}></div>
-            <div className={styles.wing2}></div>
-            <div className={styles.wing3}></div>
-            <div className={styles.wing4}></div>
-            <div className={styles.wing5}></div>
-            <div className={styles.wing6}></div>
-            <div className={styles.wing7}></div>
-             
+            <div className={styles.flowerContainer}>
+                <div onClick={onAddBtnClick} className={styles.flower}></div>
+               
+                <div className={styles.wing}></div>
+                {/* <div className={styles.wing1}></div>
+                <div className={styles.wing2}></div>
+                <div className={styles.wing3}></div>
+                <div className={styles.wing4}></div>
+                <div className={styles.wing5}></div>
+                <div className={styles.wing6}></div>
+                <div className={styles.wing7}></div> */}
+            </div>
 
-            {/* <div className={styles.wrapper}>
-            {
-               inputList.map((item) => (
-                <Wing/>
-            ))
-            }
-            </div> */}
+
+            <div className={styles.wrapper}>
+                {
+                    inputList.map((item) => (
+                        <Wing />
+                    ))
+                }
+            </div>
         </div>
     )
 }

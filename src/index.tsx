@@ -13,22 +13,25 @@ import Footer from './components/footer/footer';
 import Cv from './components/sites/cv';
 import Projects from './components/sites/projects';
 import AboutMe from './components/sites/aboutMe';
+import { ModalContextProvider } from '@rintsin/common-components';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/portfolio'>
-    <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='aboutMe' element={<AboutMe />} />
-        <Route path='cv' element={<Cv />} />
-        <Route path='projects' element={<Projects />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <ModalContextProvider>
+      <BrowserRouter basename='/portfolio'>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='aboutMe' element={<AboutMe />} />
+          <Route path='cv' element={<Cv />} />
+          <Route path='projects' element={<Projects />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </ModalContextProvider>
   </React.StrictMode>
 );
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { mySkills } from '../../data/skills';
 import styles from './cv.module.scss';
 
 type CvProps = {
@@ -11,11 +12,14 @@ const Cv: React.FC<CvProps> = () => {
       <div className={styles.leftSide}>
         <h2 className={styles.h2left}>Skills</h2>
         <ul className={styles.leftList}>
-          <li className={styles.leftItems}>HTML</li>
+          {
+            mySkills && mySkills.map(x => <li key={x.key} className={styles.leftItems}>{x.skill}</li>)
+          }
+          {/* <li className={styles.leftItems}>HTML</li>
           <li className={styles.leftItems}>CSS</li>
           <li className={styles.leftItems}>TypeScript</li>
           <li className={styles.leftItems}>Unity + C#</li>
-          <li className={styles.leftItems}>Git</li>
+          <li className={styles.leftItems}>Git</li> */}
         </ul>
         <h2 className={styles.h2left}>Languages</h2>
         <ul className={styles.leftList}>
