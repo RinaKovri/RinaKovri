@@ -1,5 +1,7 @@
 .container {
-  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,7 +12,9 @@
   display: block;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color:  rgba(229, 211, 168, 0.8);
+  background-color: rgba(7, 71, 120, 0.9);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .h2left {
@@ -18,11 +22,11 @@
   height: fit-content;
   text-align: center;
   margin-left: 40px;
-  background-color:  rgba(248, 243, 230, 0.8);
+  background-color:  rgba(242, 242, 250, 0.9);
   border-radius: 5px;
   font-family: 'Cormorant Garamond'; 
   font-weight: lighter;
-  color: rgba(39, 38, 40, 0.9);
+  color:rgba(29, 74, 108, 0.9);
 }
 
 .leftList {
@@ -42,14 +46,25 @@
   justify-content: space-around;
   font-family: 'Cormorant Garamond'; 
   font-size: 20px;
-  color:  rgba(39, 38, 40, 0.9);
+  color:  rgba(242, 242, 250, 0.9);
+}
+.leftdate {
+  margin-top: 0px;
+  padding: 10px;
+  font-family:  'Cormorant Garamond';
+  font-size: 16px;
+  color: rgba(242, 242, 250, 0.9);
+  font-style: italic;
+  text-decoration:overline;
 }
 
 .rightSide {
   display: block;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color:  rgba(248, 240, 220, 0.8);
+  background-color:   rgba(120, 155, 198, 0.6);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .h2right {
@@ -57,11 +72,11 @@
   width: 130px;
   height: fit-content;
   text-align: center;
-  background-color: rgba(230, 213, 173, 0.8);
+  background-color: rgba(31, 69, 112, 0.8);
   border-radius: 5px;
   font-family: 'Cormorant Garamond';
   font-weight: lighter;
-  color: rgba(39, 38, 40, 0.9);
+  color: rgba(242, 242, 250, 0.9);
 }
 
 .rightList {
@@ -78,16 +93,16 @@
 .rightItems {
   font-family:  'Cormorant Garamond'; 
   font-size: 20px;
-  color:  rgba(39, 38, 40, 0.9);
+  color:  rgba(29, 74, 108, 0.9);
   text-align: start;
 }
 
-.dateP {
+.rightdate {
   margin-top: 0px;
   padding: 10px;
   font-family:  'Cormorant Garamond';
   font-size: 16px;
-  color:  rgba(39, 38, 40, 0.9);
+  color:  rgba(29, 74, 108, 0.9);
   font-style: italic;
   text-decoration:overline;
 }
@@ -96,5 +111,5 @@
   flex-direction: column;
   font-family:  'Cormorant Garamond';
   font-size: 16px;
-  color: rgba(39, 38, 40, 0.9);
+  color: rgba(29, 74, 108, 0.9);
 }

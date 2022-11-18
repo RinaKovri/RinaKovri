@@ -1,8 +1,10 @@
 .container {
-    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
     height: 600px;
-    background-color:  rgba(229, 211, 168, 0.8);
+    background-color: rgba(7, 71, 120, 0.9);
     justify-items: center;
+    border-radius: 15px;
 }
 
 .cardList {
@@ -19,7 +21,7 @@
     margin: 10px 10px 10px 10px;
     border-style: inset;
     border-radius: 5px;
-    background-color: rgba(248, 243, 230, 0.8);
+    background-color: rgba(195, 202, 216, 0.9);
     transition: transform 0.3s;
 }
 
@@ -30,11 +32,12 @@
     width: 80%;
     height: 30px;
     text-align: center;
-    font-family: 'Cormorant Garamond' ;
+    font-family: 'Cormorant Garamond';
     font-size: 20px;
     font-weight: bolder;
-    color: rgba(39, 38, 40, 0.9);
-    background-color:  rgba(229, 211, 168, 0.8);
+    color: rgba(245, 250, 255, );
+    background-color: rgba(7, 71, 120, 0.9);
+    border-radius: 3px;
 }
 
 .cardFooter {
@@ -42,15 +45,15 @@
 }
 
 .btn {
-    background-color: rgba(229, 211, 168, 0.8);
+    background-color: rgba(57, 113, 158, 0.8);
     border: 1px;
     border-radius: 7px;
-    color:  rgba(39, 38, 40, 0.9);
+    color: rgba(242, 242, 250, 0.9);
     margin: auto;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    font-family:'Cormorant Garamond';
+    font-family: 'Cormorant Garamond';
     font-size: 16px;
 }
 
@@ -59,14 +62,16 @@
 }
 
 .btn:hover {
-    background-color: rgba(213, 179, 98, 0.8);
+    background-color: rgba(57, 136, 196, 0.8);
     font-weight: bold;
     cursor: pointer;
+    color: rgba(7, 71, 120, 0.9);
 }
 
 .txt {
     text-align: center;
     margin: auto;
     font-family: 'Cormorant Garamond';
-    color: rgba(39, 38, 40, 0.9);
+    font-size: 16px;
+    color: rgba(14, 29, 69, );
 }

@@ -1,9 +1,11 @@
 .container {
-    width: 100%;
-    height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(229, 211, 168, 0.8);
+    background-color:rgba(7, 71, 120, 0.9);
+    border-radius: 15px;
 }
 
 .wrapper {
@@ -15,12 +17,12 @@
 }
 
 .hello {
-    color: rgba(39, 38, 40, 0.9);
+    color: rgba(254, 252, 255, 0.9);
     font-family: monospace;
     font-size: 30px;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid rgba(39, 38, 40, 0.9);
+    border-right: 2px solid rgba(254, 252, 255, 0.9);
     animation: cursor 0.75s step-end infinite;
     width: 15ch;
     animation: cursor 0.75s step-end infinite, printedText 5s steps(15);
@@ -28,7 +30,7 @@
 
 @keyframes cursor {
     0% {
-        border-color:rgba(39, 38, 40, 0.9);
+        border-color: rgba(254, 252, 255, 0.9);
     }
 
     50% {
@@ -36,15 +38,15 @@
     }
 
     100% {
-        border-color:rgba(39, 38, 40, 0.9);
+        border-color: rgba(254, 252, 255, 0.9);
     }
 }
 
 @keyframes printedText {
-    from{
+    from {
         width: 0;
     }
-}        
+}
 
 .body {
     margin-left: 100px;
@@ -58,5 +60,5 @@
 
 .text {
     font-family: 'Cormorant Garamond';
-    color: rgba(39, 38, 40, 0.9);
+    color: rgba(254, 252, 255, 0.9);
 }
