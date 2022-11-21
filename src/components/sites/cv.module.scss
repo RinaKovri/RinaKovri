@@ -1,17 +1,15 @@
 .container {
   margin-left: 50px;
   margin-right: 50px;
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:center;
   overflow: auto;
 }
 
 .leftSide {
-  display: block;
-  flex-wrap: wrap;
-  flex-direction: row;
+  width: 50%;
   background-color: rgba(7, 71, 120, 0.9);
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -29,26 +27,14 @@
   color:rgba(29, 74, 108, 0.9);
 }
 
-.leftList {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0px;
-  line-height: 0;
-}
-
 .leftItems {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
   font-family: 'Cormorant Garamond'; 
   font-size: 20px;
   color:  rgba(242, 242, 250, 0.9);
+  list-style-type: none;
 }
 .leftdate {
+  list-style-type: none;
   margin-top: 0px;
   padding: 10px;
   font-family:  'Cormorant Garamond';
@@ -59,9 +45,7 @@
 }
 
 .rightSide {
-  display: block;
-  flex-wrap: wrap;
-  flex-direction: row;
+  width: 50%;
   background-color:   rgba(120, 155, 198, 0.6);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -80,14 +64,7 @@
 }
 
 .rightList {
-  margin-bottom: 130px;
   margin-left: 30px;
-  list-style-type: none;
-  display: list-item;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  line-height: 2,5px;
 }
 
 .rightItems {

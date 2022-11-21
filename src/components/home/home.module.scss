@@ -137,7 +137,6 @@ h3 {
 }
 
 .wing {
-  // @include wingBase();
   position: absolute;
 
   left: 60px;
@@ -189,21 +188,21 @@ h3 {
 }
 
 .wing1 {
-  // display: flex;
-  // position: relative;
-  // width: 5px;
-  // height: 10px;
-  // margin-left: 500px;
-  // padding: 15px 15px 20px 15px;
-  // background-blend-mode: multiply;
-  // background-image: url(wing.png);
-  // opacity: 0.6;
-  // background-position: bottom;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-color: rgba(76, 64, 169, 0);
-  // animation-duration: 10s;
-  @include wingBase();
+  display: flex;
+  position: relative;
+  width: 5px;
+  height: 10px;
+  margin-left: 500px;
+  padding: 15px 15px 20px 15px;
+  background-blend-mode: multiply;
+  background-image: url(wing.png);
+  opacity: 0.6;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(76, 64, 169, 0);
+  animation-duration: 10s;
+  // @include wingBase();
   animation: fly1 linear;
   transform: rotate(30deg);
 

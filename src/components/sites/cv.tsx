@@ -11,24 +11,19 @@ const Cv: React.FC<CvProps> = () => {
     <div className={styles.container}>
       <div className={styles.leftSide}>
         <h2 className={styles.h2left}>Skills</h2>
-        <ul className={styles.leftList}>
+        <ul>
           {
             mySkills && mySkills.map(x => <li key={x.key} className={styles.leftItems}>{x.skill}</li>)
           }
-          {/* <li className={styles.leftItems}>HTML</li>
-          <li className={styles.leftItems}>CSS</li>
-          <li className={styles.leftItems}>TypeScript</li>
-          <li className={styles.leftItems}>Unity + C#</li>
-          <li className={styles.leftItems}>Git</li> */}
         </ul>
         <h2 className={styles.h2left}>Languages</h2>
-        <ul className={styles.leftList}>
+        <ul>
           <li className={styles.leftItems}>Russian - native</li>
           <li className={styles.leftItems}>English - upper-intermediate</li>
           <li className={styles.leftItems}>Finnish - intermediate</li>
         </ul>
         <h2 className={styles.h2left}>Education</h2>
-        <ul className={styles.leftList}>
+        <ul>
           <li className={styles.leftItems}>Tieto- ja viestintätekniikka,  perustutkinto</li>
           <li className={styles.leftdate}>Varia ammattiopisto, 2021-now</li>
           <li className={styles.leftItems}>Human Resources, Bachelor degree</li>
