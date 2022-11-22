@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import styles from './footer.module.scss';
 import ContactForm from './contactForm';
 import { useModalContext } from '@rintsin/common-components';
