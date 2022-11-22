@@ -1,5 +1,6 @@
 import React from 'react'
 import { mySkills } from '../../data/skills';
+import { myLanguages } from '../../data/languages';
 import styles from './cv.module.scss';
 
 type CvProps = {
@@ -18,9 +19,9 @@ const Cv: React.FC<CvProps> = () => {
         </ul>
         <h2 className={styles.h2left}>Languages</h2>
         <ul>
-          <li className={styles.leftItems}>Russian - native</li>
-          <li className={styles.leftItems}>English - upper-intermediate</li>
-          <li className={styles.leftItems}>Finnish - intermediate</li>
+          {
+            myLanguages && myLanguages.map(x => <li key={x.key} className={styles.leftItems}>{x.skill}</li>)
+          }
         </ul>
         <h2 className={styles.h2left}>Education</h2>
         <ul>
@@ -35,10 +36,7 @@ const Cv: React.FC<CvProps> = () => {
         <div className={styles.rightList}>
           <h3 className={styles.rightItems}>Student</h3>
           <h5 className={styles.rightdate}>Varia ammattiopisto, 2021-now</h5>
-          <p className={styles.rightP}>Created my own game in Unity using C#.</p>
-          <p className={styles.rightP}>Wrote a simple calculator in Python.</p>
-          <p className={styles.rightP}>Worked in a team on the creation of a web interface for an application for booking school rooms.</p>
-          <p className={styles.rightP}>Studied Javascript, Typescript, HTML and CSS courses at the Code Academy</p>
+          <p className={styles.rightP}>Created my own game in Unity using C#. Wrote a simple calculator in Python. Worked in a team on the creation of a web interface for an application for booking school rooms. Studied Javascript, Typescript, HTML and CSS courses at the Code Academy</p>
           <h3 className={styles.rightItems}>HR-manager, internship</h3>
           <h5 className={styles.rightdate}>LOGRUS ry, Finland, 2020-2021</h5>
           <p className={styles.rightP}>My duties included helping the CEO, communication between participants, searching for volunteers, advertising</p>

@@ -2,23 +2,35 @@
     width: 100%;
     max-width: 550px;
     padding: 30px;
-    border: 1px  rgba(39, 38, 40, 0.9);
+    border: 1px rgba(39, 38, 40, 0.9);
     border-radius: 5px;
+    background-color: yellow;
 }
 
 
-.title {
-
-}
+.title {}
 
 .form {
-
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
 
 .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.message {
+    width: fit-content;
 }
 
 .btn {
-
+    width: 50px;
+    height: 30px;
 }
