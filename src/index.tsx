@@ -18,10 +18,13 @@ import { ModalContextProvider } from '@rintsin/common-components';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const isProduction = window.location.href.includes('rinakovri.github.io')
+
 root.render(
   <React.StrictMode>
     <ModalContextProvider>
-      <BrowserRouter basename='/portfolio'>
+      <BrowserRouter basename={isProduction ? '/portfolio' : ''}>
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
