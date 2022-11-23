@@ -11,7 +11,7 @@ type FooterProps = {
 
 const Footer: React.FC<FooterProps> = ({ onClick }) => {
 
-  const { modal } = useModalContext();
+  //const { modal } = useModalContext();
 
   // const display = () => modal({
   //   content: <ContactForm />
@@ -28,7 +28,7 @@ const Footer: React.FC<FooterProps> = ({ onClick }) => {
         </a>
         {/* <button onClick={display} className={styles.btn}>
         </button> */}
-          <a className={styles.email} href='mailto&#58;&#101;k%&#54;1%&#55;4%65r&#105;&#37;6E%6&#49;&#46;%72oma&#110;na&#64;g&#37;&#54;D&#97;i&#108;&#37;2E%&#54;3%6Fm'></a>
+          <a className={styles.email} href='mailto&#58;&#101;k%&#54;1%&#55;4%65r&#105;&#37;6E%6&#49;&#46;%72oma&#110;na&#64;g&#37;&#54;D&#97;i&#108;&#37;2E%&#54;3%6Fm'/>
       </div>
     </div>
   )
