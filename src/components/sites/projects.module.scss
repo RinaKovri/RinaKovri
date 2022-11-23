@@ -1,9 +1,10 @@
 .container {
     margin-left: 50px;
     margin-right: 50px;
-    height: 650px;
-    background-color: rgba(7, 71, 120, 0.9);
-    justify-items: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(7, 71, 120, 0.84);
     border-radius: 15px;
 }
 
@@ -19,9 +20,10 @@
     width: 200px;
     height: 230px;
     margin: 10px 10px 10px 10px;
-    border-style: inset;
+    border-right: 3px solid rgb(15, 53, 80, 0.9);
+    border-bottom: 3px solid rgb(15, 53, 80, 0.9);
     border-radius: 5px;
-    background-color: rgba(195, 202, 216, 0.9);
+    background-color: rgba(233, 236, 238, 0.9);
     transition: transform 0.3s;
 }
 
@@ -36,6 +38,7 @@
     font-size: 20px;
     font-weight: bolder;
     color: rgba(245, 250, 255, );
+    text-shadow: 2px 2px rgb(15, 53, 80);
     background-color: rgba(7, 71, 120, 0.9);
     border-radius: 3px;
 }
@@ -49,6 +52,7 @@
     border: 1px;
     border-radius: 7px;
     color: rgba(242, 242, 250, 0.9);
+    text-shadow: 2px 2px rgb(15, 53, 80);
     margin: auto;
     padding: 10px 20px;
     text-align: center;
@@ -66,12 +70,13 @@
     font-weight: bold;
     cursor: pointer;
     color: rgba(7, 71, 120, 0.9);
+    text-shadow: none;
 }
 
 .txt {
     text-align: center;
     margin: auto;
     font-family: 'Cormorant Garamond';
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(14, 29, 69, );
 }

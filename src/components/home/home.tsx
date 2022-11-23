@@ -42,11 +42,11 @@ const Home: React.FC<HomeProps> = () => {
         <div className={styles.container}>
             <div className={styles.body}>
                 <div className={styles.anim}>
-                    <h2 className={styles.h2}><span>Hello! My name is Ekaterina Kovrizhina and welcome to my portfolio website!</span></h2>
+                    <h2 className={styles.head2}><span>Hello! My name is Ekaterina Kovrizhina and welcome to my portfolio website!</span></h2>
                 </div>
-                <h3>Click on 'projects' section to see my code.</h3>
-                <h3>Have a look at my CV and 'about me' section and feel free to contact me any time!</h3>
-                <h3>Looking forward to hearing from you soon!</h3>
+                <h3 className={styles.head3}>Click on 'projects' section to see my code.</h3>
+                <h3 className={styles.head3}>Have a look at my CV and 'about me' section and feel free to contact me any time!</h3>
+                <h3 className={styles.head3}>Looking forward to hearing from you soon!</h3>
             </div>
             <div className={styles.flowerContainer}>
                 <div /*onClick={onAddBtnClick}*/ className={styles.flower}></div>
