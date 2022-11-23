@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './footer.module.scss';
 import ContactForm from './contactForm';
 import { useModalContext } from '@rintsin/common-components';
-import Form from '../example/form';
 
 
 type FooterProps = {
