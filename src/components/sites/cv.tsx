@@ -10,7 +10,8 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.leftSide}>
+      <ul className={styles.cvBody}>
+      <li className={styles.leftSide}>
         <h2 className={styles.h2left}>Skills</h2>
         <ul>
           {
@@ -30,8 +31,8 @@ const Cv: React.FC<CvProps> = () => {
           <li className={styles.leftItems}>Human Resources, Bachelor degree</li>
           <li className={styles.leftdate}>Sinergy Univercity, 2016-2019</li>
         </ul>
-      </div>
-      <div className={styles.rightSide}>
+      </li>
+      <li className={styles.rightSide}>
         <h2 className={styles.h2right}>Experience</h2>
         <div className={styles.rightList}>
           <h3 className={styles.rightItems}>Student</h3>
@@ -44,8 +45,9 @@ const Cv: React.FC<CvProps> = () => {
           <h5 className={styles.rightdate}>Sidenis LLC, Russia, 2013-2019</h5>
           <p className={styles.rightP}>Was engaged in search and hiring of IT employees. Managed the company's paperwork.</p>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
+    </div >
   )
 }
 

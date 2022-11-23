@@ -2,26 +2,35 @@
     width: 100%;
     max-width: 550px;
     padding: 30px;
-    border: 1px rgba(39, 38, 40, 0.9);
     border-radius: 5px;
-    background-color: yellow;
+    background-color: rgb(178, 209, 224);
 }
 
 
-.title {}
+.title {
+    margin-bottom: 40px;
+    font-family: 'Cormorant Garamond';
+    color: rgba(5, 53, 90);
+}
 
 .form {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
 }
 
 .input {
     display: 'flex';
     flex-direction: 'row'
+}
+
+.lines {
+    font-family: 'Cormorant Garamond';
+    color: rgba(5, 53, 90);
+    font-size: 18px;
 }
 
 .message {
@@ -31,4 +40,10 @@
 .btn {
     width: 50px;
     height: 30px;
+    font-family: 'Cormorant Garamond';
+    font-size: 16px;
+    color: rgb(198, 216, 229);
+    background-color: rgb(21, 97, 155);
+    border-radius: 5px;
+    margin-bottom: 10px;
 }

@@ -21,22 +21,22 @@ const ContactForm: React.FC<ContactFormProps> = () => {
             </div>
             <form onSubmit={(e) => onSubmit(e)} className={styles.form}>
                 <div className={styles.input}>
-                    <label>Enter your name:
+                    <p className={styles.lines}>Enter your name:
                         <input
                             type='text'
                             name='username'
                             value={name}
                             onChange={e => setName(e.target.value)}
                         />
-                    </label>
-                    <label>Enter your email:
+                    </p>
+                    <p className={styles.lines}>Enter your email:
                         <input
                             type='email'
                             name='email'
                             value={email}
                             onChange={e => setEmail(e.target.value)}
                         />
-                    </label>
+                    </p>
                 </div>
                 <div className={styles.message}>
                     <textarea
