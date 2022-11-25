@@ -14,12 +14,18 @@ body {
   background-size: cover;
 }
 
-.body {
+.homeBody {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1500px){
+.homeBody {
+  height: 600px;
+}
 }
 
 .head2 {
@@ -57,8 +63,6 @@ body {
 
 .flower {
   position: absolute;
-  display: flex;
-  border: none;
   width: 250px;
   height: 250px;
   background-blend-mode: multiply;
@@ -74,9 +78,9 @@ body {
   animation-name: spin;
 }
 
-.flower:hover {
-  cursor: pointer;
-}
+// .flower:hover {
+//   cursor: pointer;
+// }
 
 @-moz-keyframes spin {
   100% {

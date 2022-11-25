@@ -40,7 +40,7 @@ const Home: React.FC<HomeProps> = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.body}>
+            <div className={styles.homeBody}>
                 <div className={styles.anim}>
                     <h2 className={styles.head2}><span>Hello! My name is Ekaterina Kovrizhina and welcome to my portfolio website!</span></h2>
                 </div>
