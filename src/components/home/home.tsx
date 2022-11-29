@@ -40,10 +40,11 @@ const Home: React.FC<HomeProps> = () => {
 
     return (
         <div className={styles.container}>
+            <div className={styles.wrapper}>
+        <div className={styles.hello}>Hello everyone!</div>
+      </div>
             <div className={styles.homeBody}>
-                <div className={styles.anim}>
-                    <h2 className={styles.head2}><span>Hello! My name is Ekaterina Kovrizhina and welcome to my portfolio website!</span></h2>
-                </div>
+                    <h2 className={styles.head2}><span>My name is Ekaterina Kovrizhina and welcome to my portfolio website!</span></h2>
                 <p className={styles.txt}>Click on 'projects' section to see my code.</p>
                 <p className={styles.txt}>Have a look at my CV and 'about me' section and feel free to contact me any time!</p>
                 <p className={styles.txt}>Looking forward to hearing from you soon!</p>

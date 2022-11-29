@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './footer.module.scss';
-//import ContactForm from './contactForm';
-//import { useModalContext } from '@rintsin/common-components';
-//import { Link } from 'react-router-dom';
+// import ContactForm from './contactForm';
+// import { useModalContext } from '@rintsin/common-components';
+// import { Link } from 'react-router-dom';
 
 
 type FooterProps = {
@@ -11,7 +11,7 @@ type FooterProps = {
 
 const Footer: React.FC<FooterProps> = ({ onClick }) => {
 
-  //const { modal } = useModalContext();
+  // const { modal } = useModalContext();
 
   // const display = () => modal({
   //   content: <ContactForm />
