@@ -1,7 +1,7 @@
 .container {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(7, 71, 120, 0.84);
@@ -30,7 +30,7 @@ body {
 
 .head2 {
   padding-top: 50px;
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Cormorant Garamond';
   color: rgba(254, 252, 255, 0.9);
   text-shadow: 2px 2px rgb(15, 53, 80);
@@ -50,17 +50,17 @@ body {
   }
 }
 
-.head3 {
-  margin-left: auto;
-  margin-right: auto;
+.txt {
   font-family: 'Cormorant Garamond';
-  color: rgba(249, 246, 252, 0.9);
+font-size: 20px;
+  color: rgba(249, 246, 252);
   text-shadow: 2px 2px rgb(15, 53, 80);
-  margin: 1px;
-  padding: 15px;
   text-align: center;
 }
-
+// .flowerContainer {
+//   display: flex;
+//   position: relative;
+// }
 .flower {
   position: absolute;
   width: 250px;
@@ -105,9 +105,6 @@ body {
   position: relative;
 }
 
-.flowerContainer {
-  position: relative;
-}
 
 @mixin wingBase {
   position: absolute;

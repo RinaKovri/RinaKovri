@@ -1,7 +1,7 @@
 .container {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(7, 71, 120, 0.84);
@@ -21,7 +21,7 @@
     color: rgba(254, 252, 255, 0.9);
     text-shadow: 2px 2px rgb(15, 53, 80);
     font-family: monospace;
-    font-size: 30px;
+    font-size: 35px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid rgba(254, 252, 255, 0.9);
@@ -52,7 +52,7 @@
 
 .header2 {
     font-family: 'Cormorant Garamond';
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
     color: rgba(254, 252, 255, 0.9);
     text-shadow: 2px 2px rgb(15, 53, 80);
@@ -61,7 +61,7 @@
 
 .header4 {
     font-family: 'Cormorant Garamond';
-    font-size: 17px;
+    font-size: 27px;
     font-weight: lighter;
     color: rgba(254, 252, 255, 0.9);
     text-shadow: 2px 2px rgb(15, 53, 80);
@@ -81,15 +81,15 @@
 .text {
     text-align: start;
     font-family: 'Cormorant Garamond';
-    font-size: 17px;
+    font-size: 27px;
     color: rgba(254, 252, 255, 0.9);
     text-shadow: 2px 2px rgb(15, 53, 80);
-    line-height: 25px;
+    line-height: 40px;
 }
 
 .footer {
     font-family: 'Cormorant Garamond';
-    font-size: 15px;
+    font-size: 25px;
     font-weight: lighter;
     color: rgba(254, 252, 255, 0.9);
     text-shadow: 2px 2px rgb(15, 53, 80);
