@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   border-radius: 15px;
-  max-height: 100vh;
+  max-height: 150vh;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   font-size: calc(1vw + 1vh + 2.5vmin);
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid rgba(254, 252, 255, 0.9);
+  border-right: 2px solid  rgba(18, 52, 119, 0.9);
   animation: cursor 0.75s step-end infinite;
   width: 15ch;
   animation: cursor 0.75s step-end infinite, printedText 5s steps(15);
@@ -37,7 +37,7 @@ body {
 
 @keyframes cursor {
   0% {
-    border-color: rgba(254, 252, 255, 0.9);
+    border-color: rgba(18, 52, 119, 0.9);
   }
 
   50% {
@@ -45,7 +45,7 @@ body {
   }
 
   100% {
-    border-color: rgba(254, 252, 255, 0.9);
+    border-color: rgba(18, 52, 119, 0.9);
   }
 }
 
