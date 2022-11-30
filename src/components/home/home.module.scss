@@ -4,28 +4,27 @@
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(7, 71, 120, 0.84);
   border-radius: 15px;
   max-height: 100vh;
 }
 
 body {
-  background-image: url(pattern.jpg);
-  background-repeat: no-repeat;
+  background:url(pngwing.com.png) no-repeat, linear-gradient(0deg,rgba(7, 71, 120, 0.84) 38%, rgba(63, 125, 164, 0.915) 53%, rgba(140, 190, 200, 0.6) 66%, rgba(245, 253, 255, 1) 100%);
   background-size: cover;
 }
+
 .wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 70px;
   margin-left: 180px;
   height: 80px;
   width: 800px;
 }
 
 .hello {
-  color: rgba(254, 252, 255, 0.9);
-  text-shadow: 2px 2px rgb(15, 53, 80);
+  color: rgba(18, 52, 119, 0.9);
+  text-shadow: 2px 2px rgb(141, 167, 186);
   font-family: monospace;
   font-size: calc(1vw + 1vh + 2.5vmin);
   white-space: nowrap;
@@ -38,23 +37,24 @@ body {
 
 @keyframes cursor {
   0% {
-      border-color: rgba(254, 252, 255, 0.9);
+    border-color: rgba(254, 252, 255, 0.9);
   }
 
   50% {
-      border-color: transparent;
+    border-color: transparent;
   }
 
   100% {
-      border-color: rgba(254, 252, 255, 0.9);
+    border-color: rgba(254, 252, 255, 0.9);
   }
 }
 
 @keyframes printedText {
   from {
-      width: 0;
+    width: 0;
   }
 }
+
 .homeBody {
   display: flex;
   flex-wrap: wrap;
@@ -63,10 +63,10 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 1500px){
-.homeBody {
-  height: 600px;
-}
+@media screen and (max-width: 1500px) {
+  .homeBody {
+    height: 600px;
+  }
 }
 
 .head2 {
@@ -89,6 +89,7 @@ body {
   text-shadow: 2px 2px rgb(15, 53, 80);
   text-align: center;
 }
+
 // .flowerContainer {
 //   display: flex;
 //   position: relative;
