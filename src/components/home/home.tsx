@@ -1,4 +1,5 @@
 //import React, { useState } from 'react';
+import Flower from '../flower/flower';
 import styles from './home.module.scss';
 
 
@@ -49,8 +50,9 @@ const Home: React.FC<HomeProps> = () => {
                 <p className={styles.txt}>Have a look at my CV and 'about me' section and feel free to contact me any time!</p>
                 <p className={styles.txt}>Looking forward to hearing from you soon!</p>
             </div>
-            <div className={styles.flowerContainer}>
-                <div /*onClick={onAddBtnClick}*/ className={styles.flower}></div>
+            <Flower />
+            {/* <div className={styles.flowerContainer}>
+                <div onClick={onAddBtnClick} className={styles.flower}></div>
                
                 <div className={styles.wing}></div>
                 <div className={styles.wing1}></div>
@@ -60,7 +62,7 @@ const Home: React.FC<HomeProps> = () => {
                 <div className={styles.wing5}></div>
                 <div className={styles.wing6}></div>
                 <div className={styles.wing7}></div>
-            </div> 
+            </div>  */}
 
 
             {/* <div className={styles.wrapper}>
