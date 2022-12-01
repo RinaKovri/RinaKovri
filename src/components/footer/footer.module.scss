@@ -3,29 +3,30 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 
 .footer {
-    position: relative;
     display: flex;
     list-style-type: none;
-    margin-top: 20px;
-    margin-left: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
 }
 
 
-.btn {
-    cursor: pointer;
-    border: none;
-    height: 30px;
-    width: 30px;
-    background-image: url(icon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 30px;
-}
+// .btn {
+//     cursor: pointer;
+//     border: none;
+//     height: 30px;
+//     width: 30px;
+//     background-image: url(icon.png);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     margin-left: 30px;
+//     transition: 0.5s;
+// }
 
 .linkedin {
     margin-bottom: 18px;
@@ -37,6 +38,7 @@
     background-size: cover;
     margin-left: 30px;
     opacity: 0.85;
+    transition: 0.5s;
 }
 
 .git {
@@ -44,9 +46,10 @@
     cursor: pointer;
     width: 54px;
     height: 54px;
-    background-image: url(GitHub-Mark-Light-64px.png);
+    background-image: url(GitHub.png);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.5s;
 }
 
 .email {
@@ -55,11 +58,10 @@
     width: 54px;
     height: 54px;
     margin-left: 25px;
-    border: none;
-    background-image: url(mailegg.png);
+    background-image: url(email.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: transparent;
     opacity: 0.85;
+    transition: 0.5s;
 }
-

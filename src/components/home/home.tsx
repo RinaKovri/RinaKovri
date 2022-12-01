@@ -44,7 +44,7 @@ const Home: React.FC<HomeProps> = () => {
         <div className={styles.hello}>Hello everyone!</div>
       </div>
             <div className={styles.homeBody}>
-                    <h2 className={styles.head2}><span>My name is Ekaterina Kovrizhina and welcome to my portfolio website!</span></h2>
+                    <h2 className={styles.head2}><span>My name is Ekaterina Kovrizhina<br></br> and welcome to my portfolio website!</span></h2>
                 <p className={styles.txt}>Click on 'projects' section to see my code.</p>
                 <p className={styles.txt}>Have a look at my CV and 'about me' section and feel free to contact me any time!</p>
                 <p className={styles.txt}>Looking forward to hearing from you soon!</p>

@@ -37,7 +37,7 @@ const Cv: React.FC<CvProps> = () => {
         <div className={styles.rightList}>
           <h3 className={styles.rightItems}>Student</h3>
           <h5 className={styles.rightdate}>Varia ammattiopisto, 2021-now</h5>
-          <p className={styles.rightP}>Created my own game in Unity using C#. Wrote a simple calculator in Python. Worked in a team on the creation of a web interface for an application for booking school rooms. Studied Javascript, Typescript, HTML and CSS courses at the Code Academy</p>
+          <p className={styles.rightP}>Created my own game in Unity using C#.<br></br> Wrote a simple calculator in Python.<br></br> Worked in a team on the creation of a web interface for an application for booking school rooms.<br></br> Studied Javascript, Typescript, HTML and CSS courses at the Code Academy</p>
           <h3 className={styles.rightItems}>HR-manager, internship</h3>
           <h5 className={styles.rightdate}>LOGRUS ry, Finland, 2020-2021</h5>
           <p className={styles.rightP}>My duties included helping the CEO, communication between participants, searching for volunteers, advertising</p>

@@ -1,35 +1,31 @@
 .container {
-  margin-left: 50px;
+  margin-left: 250px;
   margin-right: 50px;
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   border-radius: 15px;
-  max-height: 150vh;
-}
-
-body {
-  background:url(pngwing.com.png) no-repeat, linear-gradient(0deg,rgba(7, 71, 120, 0.84) 38%, rgba(63, 125, 164, 0.915) 53%, rgba(140, 190, 200, 0.6) 66%, rgba(245, 253, 255, 1) 100%);
-  background-size: cover;
+  //justify-content: center;
+  height:fit-content;
 }
 
 .wrapper {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  margin-left: 180px;
-  height: 80px;
+  height: 50px;
   width: 800px;
 }
 
 .hello {
-  color: rgba(18, 52, 119, 0.9);
-  text-shadow: 2px 2px rgb(141, 167, 186);
-  font-family: monospace;
+  color: rgba(10, 86, 119);
+  text-shadow: 2px 2px rgb(230, 236, 241);
+  font-family: 'Cormorant Garamond';
   font-size: calc(1vw + 1vh + 2.5vmin);
+  letter-spacing: 3px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid  rgba(18, 52, 119, 0.9);
+  border-right: 2px solid rgba(10, 86, 119);
   animation: cursor 0.75s step-end infinite;
   width: 15ch;
   animation: cursor 0.75s step-end infinite, printedText 5s steps(15);
@@ -37,7 +33,7 @@ body {
 
 @keyframes cursor {
   0% {
-    border-color: rgba(18, 52, 119, 0.9);
+    border-color: rgba(10, 86, 119);
   }
 
   50% {
@@ -45,7 +41,7 @@ body {
   }
 
   100% {
-    border-color: rgba(18, 52, 119, 0.9);
+    border-color: rgba(10, 86, 119);
   }
 }
 
@@ -56,11 +52,7 @@ body {
 }
 
 .homeBody {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 @media screen and (max-width: 1500px) {
@@ -75,9 +67,10 @@ body {
   padding-top: 50px;
   font-size: calc(1vw + 1vh + 1vmin);
   font-family: 'Cormorant Garamond';
-  color: rgba(254, 252, 255, 0.9);
-  text-shadow: 2px 2px rgb(15, 53, 80);
+  color: rgba(10, 86, 119);
+  text-shadow: 1px 1px rgb(248, 250, 251);
   text-align: center;
+  line-height: 55px;
 }
 
 .txt {
@@ -86,14 +79,13 @@ body {
   font-family: 'Cormorant Garamond';
   font-size: calc(0.7vw + 0.7vh + 1vmin);
   color: rgba(249, 246, 252);
-  text-shadow: 2px 2px rgb(15, 53, 80);
+  text-shadow: 1px 1px rgb(15, 53, 80);
   text-align: center;
 }
 
-// .flowerContainer {
-//   display: flex;
-//   position: relative;
-// }
+.flowerContainer {
+  display: block;
+}
 .flower {
   position: absolute;
   width: 250px;
@@ -110,10 +102,6 @@ body {
   -moz-animation: spin 60s linear infinite;
   animation-name: spin;
 }
-
-// .flower:hover {
-//   cursor: pointer;
-// }
 
 @-moz-keyframes spin {
   100% {
