@@ -1,12 +1,14 @@
 .container {
   margin-left: 250px;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   border-radius: 15px;
-  //justify-content: center;
-  height:fit-content;
+  // max-height: 150vh;
+
+  // align-items: center;
+  // justify-content: center;
 }
 
 .wrapper {
@@ -52,6 +54,7 @@
 }
 
 .homeBody {
+  margin-top: 50px;
   justify-content: center;
 }
 
@@ -78,12 +81,14 @@
   margin-right: 30px;
   font-family: 'Cormorant Garamond';
   font-size: calc(0.7vw + 0.7vh + 1vmin);
-  color: rgba(249, 246, 252);
-  text-shadow: 1px 1px rgb(15, 53, 80);
+  color: rgb(247, 249, 250);
+  text-shadow: 1px 1px rgb(3, 46, 68);
   text-align: center;
 }
 
 .flowerContainer {
+  margin-left: -200px;
+  margin-top: -200px;
   display: block;
 }
 .flower {

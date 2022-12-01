@@ -88,7 +88,7 @@
 .rightItems {
   font-family: 'Cormorant Garamond';
   font-size: calc(0.2vw + 0.2vh + 2.5vmin);
-  color: rgb(15, 53, 80, 0.8);
+  color: rgb(15, 53, 80, 0.9);
   text-shadow: 1px 1px rgb(218, 226, 234);
   text-align: start;
 }
@@ -108,4 +108,5 @@
   font-family: 'Cormorant Garamond';
   font-size: calc(0.01vw + 0.01vh + 2.2vmin);
   color: rgba(29, 74, 108, 0.9);
+  line-height: 30px;
 }
