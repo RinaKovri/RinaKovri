@@ -11,6 +11,7 @@
     display: flex;
     list-style-type: none;
     margin-top: 100px;
+    margin-left: 50px;
     // position: fixed;
     // right: 10px;
     // bottom: 0;
@@ -47,7 +48,7 @@
     cursor: pointer;
     width: 54px;
     height: 54px;
-    background-image: url(./gitHub.png);
+    background-image: url(gitHub.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
