@@ -1,46 +1,50 @@
 .container {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
+  min-width: 70vw;
+  min-height: 110vh;
   display: flex;
   flex-wrap: wrap;
   border-radius: 15px;
 }
 
 .cvBody {
-  margin-left: -58px;
+  margin-left: auto;
+  margin-right: auto;
   list-style: none;
   display: flex;
   flex-direction: row;
 }
 
 .leftSide {
-  width: 100%;
-  background-color: rgba(7, 71, 120, 0.9);
+  background-color: rgb(21, 87, 137, 0.9);
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-right: 3px dotted rgba(143, 167, 195, 0.6);
 }
 
 .h2left {
-  width: 130px;
+  width: 150px;
   height: fit-content;
   text-align: center;
   margin-left: 20px;
   background-color: rgba(242, 242, 250, 0.9);
   border-radius: 5px;
   font-family: 'Cormorant Garamond';
+  font-size: calc(0.2vw + 0.2vh + 2.5vmin);
   font-weight: lighter;
-  color: rgba(29, 74, 108, 0.9);
+  color: rgba(29, 74, 108);
   text-shadow: 2px 2px rgba(232, 241, 253, 0.9);
 }
 
 .leftItems {
   font-family: 'Cormorant Garamond';
-  font-size: 20px;
+  font-size: calc(0.01vw + 0.01vh + 2.5vmin);
   color: rgba(242, 242, 250, 0.9);
   text-shadow: 2px 2px rgb(15, 53, 80);
   list-style-type: none;
+  line-height: 5vh;
 }
 
 .leftdate {
@@ -48,15 +52,14 @@
   margin-top: 0px;
   padding: 10px;
   font-family: 'Cormorant Garamond';
-  font-size: 16px;
+  font-size: calc(0.001vh + 0.001vh + 2vmin);
   color: rgba(242, 242, 250, 0.9);
-  text-shadow: 2px 2px rgb(15, 53, 80);
   font-style: italic;
   text-decoration: overline;
 }
 
 .rightSide {
-  background-color: rgba(120, 155, 198, 0.6);
+  background-color: rgba(203, 216, 228, 0.8);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-left: 3px dotted rgba(63, 103, 151, 0.6);
@@ -65,15 +68,16 @@
 
 .h2right {
   margin-left: 20px;
-  width: 130px;
+  width: 150px;
   height: fit-content;
   text-align: center;
   background-color: rgba(31, 69, 112, 0.8);
   border-radius: 5px;
   font-family: 'Cormorant Garamond';
+  font-size: calc(0.2vw + 0.2vh + 2.5vmin);
   font-weight: lighter;
-  color: rgba(242, 242, 250, 0.9);
-  text-shadow: 2px 2px rgb(15, 53, 80);
+  color: rgb(253, 253, 255);
+  text-shadow: 1px 1px rgb(15, 53, 80);
 }
 
 .rightList {
@@ -82,9 +86,9 @@
 
 .rightItems {
   font-family: 'Cormorant Garamond';
-  font-size: 20px;
-  color: rgba(29, 74, 108, 0.9);
-  text-shadow: 2px 2px rgba(194, 221, 255, 0.9);
+  font-size: calc(0.2vw + 0.2vh + 2.5vmin);
+  color: rgb(15, 53, 80, 0.9);
+  text-shadow: 1px 1px rgb(218, 226, 234);
   text-align: start;
 }
 
@@ -92,9 +96,8 @@
   margin-top: 0px;
   padding: 10px;
   font-family: 'Cormorant Garamond';
-  font-size: 16px;
-  color: rgba(29, 74, 108, 0.9);
-  text-shadow: 2px 2px rgba(194, 221, 255, 0.9);
+  font-size: calc(0.01vw + 0.01vh + 2vmin);
+  color: rgba(29, 74, 108, 0.95);
   font-style: italic;
   text-decoration: overline;
 }
@@ -102,7 +105,7 @@
 .rightP {
   flex-direction: column;
   font-family: 'Cormorant Garamond';
-  font-size: 18px;
+  font-size: calc(0.01vw + 0.01vh + 2.2vmin);
   color: rgba(29, 74, 108, 0.9);
-  text-shadow: 2px 2px rgba(194, 221, 255, 0.9);
+  line-height: 30px;
 }
