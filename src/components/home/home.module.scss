@@ -1,15 +1,18 @@
 .container {
-  // margin-left: 250px;
-  // margin-right: 50px;
-  // margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  min-width: 70vw;
+  min-height: 110vh;
   display: flex;
   flex-wrap: wrap;
-  // max-height: 150vh;
-
+  max-height: 150vh;
   align-items: center;
   justify-content: center;
-  background: rgb(7, 71, 120, 0.5);
+  background: rgba(7, 71, 120, 0.8);
+    background: linear-gradient(0deg, rgba(7, 71, 120, 0.9) 38%, rgba(37, 115, 163, 0.8) 53%, rgba(127, 195, 208, 0.8) 73%, rgb(255, 255, 255, 0.9) 100%);
   background-position: top;
+  border-radius: 15px;
 }
 
 .wrapper {
@@ -21,14 +24,14 @@
 }
 
 .hello {
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgba(10, 86, 119);
+  color:rgba(7, 71, 120, 0.8);
+  text-shadow: 2px 2px rgb(255, 255, 255);
   font-family: 'Cormorant Garamond';
   font-size: calc(1vw + 1vh + 2.5vmin);
   letter-spacing: 3px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgba(7, 71, 120, 0.8);
   animation: cursor 0.75s step-end infinite;
   width: 15ch;
   animation: cursor 0.75s step-end infinite, printedText 5s steps(15);
@@ -36,7 +39,7 @@
 
 @keyframes cursor {
   0% {
-    border-color: rgb(255, 255, 255);
+    border-color:rgba(7, 71, 120, 0.8);
   }
 
   50% {
@@ -44,7 +47,7 @@
   }
 
   100% {
-    border-color: rgb(255, 255, 255);
+    border-color: rgba(7, 71, 120, 0.8);
   }
 }
 
