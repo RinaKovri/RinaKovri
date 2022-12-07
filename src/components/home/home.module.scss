@@ -1,6 +1,6 @@
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
   margin-top: 20px;
   min-width: 70vw;
   min-height: 110vh;
@@ -33,7 +33,7 @@
   overflow: hidden;
   border-right: 2px solid rgba(7, 71, 120, 0.8);
   animation: cursor 0.75s step-end infinite;
-  width: 15ch;
+  width: 20ch;
   animation: cursor 0.75s step-end infinite, printedText 5s steps(15);
 }
 
@@ -58,7 +58,9 @@
 }
 
 .homeBody {
-  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 200px;
   justify-content: center;
 }
 

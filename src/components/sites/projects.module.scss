@@ -17,8 +17,8 @@
 
 .cardBody {
     display: grid;
-    width: 200px;
-    height: 230px;
+    width: 21vw;
+    height: 26vh;
     margin: 20px 20px;
     border-right: 3px solid rgb(15, 53, 80, 0.9);
     border-bottom: 3px solid rgb(15, 53, 80, 0.9);
@@ -31,8 +31,8 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    height: 30px;
+    width: 19vw;
+    height: 4vh;
     text-align: center;
     font-family: 'Cormorant Garamond';
     font-size: calc(0.1vh + 0.1vh + 2vmin);
@@ -48,13 +48,12 @@
 }
 
 .btn {
-    background-color: rgba(57, 113, 158, 0.8);
+    background-color: rgba(97, 146, 187, 0.8);
     border: 1px;
     border-radius: 7px;
-    color: rgba(242, 242, 250, 0.9);
-    text-shadow: 2px 2px rgb(15, 53, 80);
+    color: rgba(4, 24, 55, 0.9);
     margin: auto;
-    padding: 10px 20px;
+    padding: 1vh 2vw;
     text-align: center;
     text-decoration: none;
     font-family: 'Cormorant Garamond';
@@ -66,14 +65,16 @@
 }
 
 .btn:hover {
-    background-color: rgba(57, 136, 196, 0.8);
+    background-color: rgba(37, 172, 209, 0.8);
     font-weight: bold;
     cursor: pointer;
-    color: rgba(7, 71, 120, 0.9);
+    color: rgba(255, 255, 255);
     text-shadow: none;
 }
 
 .txt {
+    height: 8vh;
+    width: 19vw;
     text-align: center;
     margin: auto;
     font-family: 'Cormorant Garamond';

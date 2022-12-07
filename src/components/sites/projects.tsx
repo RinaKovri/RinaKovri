@@ -24,8 +24,8 @@ const Projects: React.FC<ProjectsProps> = () => {
         {
           githubData && githubData.map(x => (
             <div key={x.id} className={styles.cardBody}>
-              <h4 className={styles.cardTitle}>{x.name}</h4>
-              <p className={styles.txt}>{x.description}</p>
+              <div className={styles.cardTitle}>{x.name}</div>
+              <div className={styles.txt}>{x.description}</div>
               <div className={styles.cardFooter}>
               <a target="_blank" rel="noreferrer" href={x.url} className={styles.btn}>GitHub</a>
               </div>
