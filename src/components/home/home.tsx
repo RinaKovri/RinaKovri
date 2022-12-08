@@ -1,5 +1,5 @@
 //import React, { useState } from 'react';
-import Flower from '../flower/flower';
+//import Flower from '../flower/flower';
 import styles from './home.module.scss';
 
 
@@ -50,7 +50,7 @@ const Home: React.FC<HomeProps> = () => {
                 <p className={styles.txt}>Have a look at my CV and 'about me' section and feel free to contact me any time!</p>
                 <p className={styles.txt}>Looking forward to hearing from you soon!</p>
             </div>
-            <Flower />
+            {/* <Flower /> */}
             {/* <div className={styles.flowerContainer}>
                 <div onClick={onAddBtnClick} className={styles.flower}></div>
                
