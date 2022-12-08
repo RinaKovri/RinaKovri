@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.b23a03c0.css",
-    "main.js": "./static/js/main.46269580.js",
+    "main.css": "./static/css/main.15560012.css",
+    "main.js": "./static/js/main.7c612710.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/pngwing.com.png": "./static/media/pngwing.com.a7aa90d45b2dfaa54adf.png",
-    "static/media/flower.png": "./static/media/flower.a1432026c598aa23ad46.png",
-    "static/media/wing.png": "./static/media/wing.6a929a421fbec2ce9094.png",
     "static/media/Linkedin.png": "./static/media/Linkedin.9e88f45b95b1b02e0511.png",
     "static/media/github.png": "./static/media/github.987334e9f782cc505f25.png",
     "static/media/icon.png": "./static/media/icon.77a4fd865c46ccd79325.png",
     "index.html": "./index.html",
-    "main.b23a03c0.css.map": "./static/css/main.b23a03c0.css.map",
-    "main.46269580.js.map": "./static/js/main.46269580.js.map",
+    "main.15560012.css.map": "./static/css/main.15560012.css.map",
+    "main.7c612710.js.map": "./static/js/main.7c612710.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b23a03c0.css",
-    "static/js/main.46269580.js"
+    "static/css/main.15560012.css",
+    "static/js/main.7c612710.js"
   ]
 }
