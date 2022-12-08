@@ -50,7 +50,7 @@ const Home: React.FC<HomeProps> = () => {
                 <p className={styles.txt}>Have a look at my CV and 'about me' section and feel free to contact me any time!</p>
                 <p className={styles.txt}>Looking forward to hearing from you soon!</p>
             </div>
-            <Flower />
+            {/* <Flower /> */}
             {/* <div className={styles.flowerContainer}>
                 <div onClick={onAddBtnClick} className={styles.flower}></div>
                
