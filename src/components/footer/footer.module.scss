@@ -18,17 +18,18 @@
 }
 
 
-// .btn {
-//     cursor: pointer;
-//     border: none;
-//     height: 30px;
-//     width: 30px;
-//     background-image: url(icon.png);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     margin-left: 30px;
-//     transition: 0.5s;
-// }
+.btn {
+    cursor: pointer;
+    border: none;
+    height: 63px;
+    width: 63px;
+    background-image: url(icon.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    opacity: 0.85;
+}
 
 .linkedin {
     margin-bottom: 18px;
