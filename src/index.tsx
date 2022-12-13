@@ -24,7 +24,7 @@ const isProduction = window.location.href.includes('rinakovri.github.io')
 root.render(
   <React.StrictMode>
     <ModalContextProvider>
-      <Router basename={isProduction ? '/portfolio' : ''}>
+      <Router /*basename={isProduction ? '/portfolio' : ''}*/>
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
