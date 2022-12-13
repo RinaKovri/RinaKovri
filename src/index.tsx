@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -24,7 +24,7 @@ const isProduction = window.location.href.includes('rinakovri.github.io')
 root.render(
   <React.StrictMode>
     <ModalContextProvider>
-      <BrowserRouter basename={isProduction ? '/portfolio' : ''}>
+      <Router basename={isProduction ? '/portfolio' : ''}>
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -33,7 +33,7 @@ root.render(
           <Route path='projects' element={<Projects />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </ModalContextProvider>
   </React.StrictMode>
 );
