@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-const isProduction = window.location.href.includes('rinakovri.github.io')
+//const isProduction = window.location.href.includes('rinakovri.github.io')
 
 root.render(
   <React.StrictMode>
