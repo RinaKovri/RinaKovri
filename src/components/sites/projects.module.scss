@@ -1,6 +1,6 @@
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 20px;
     width: 90vw;
     height: 90vh;
@@ -19,9 +19,12 @@
     display: grid;
     width: 21vw;
     height: 26vh;
+    min-width:15vw;
+    min-height: 20vh;
     margin: 20px 20px;
-    border-right: 3px solid rgb(15, 53, 80, 0.9);
-    border-bottom: 3px solid rgb(15, 53, 80, 0.9);
+    border-right: 2px solid rgb(15, 53, 80, 0.9);
+    border-bottom: 2px solid rgb(15, 53, 80, 0.9);
+    box-shadow: 12px 12px 15px rgb(15, 53, 80, 0.8);
     border-radius: 5px;
     background-color: rgba(245, 248, 250);
     transition: transform 0.3s;
@@ -73,11 +76,12 @@
 }
 
 .txt {
-    height: 8vh;
-    width: 19vw;
+    // height: 8vh;
+    // width: 19vw;
     text-align: center;
     margin: auto;
     font-family: 'Cormorant Garamond';
     font-size: calc(0.001vh + 0.001vh + 2.2vmin);
     color: rgba(14, 29, 69, );
+    border-bottom: 2px solid rgb(6, 40, 79);
 }
