@@ -27,7 +27,7 @@ const Projects: React.FC<ProjectsProps> = () => {
               <div className={styles.cardTitle}>{x.name}</div>
               <div className={styles.txt}>{x.description}</div>
               <div className={styles.cardFooter}>
-              <a target="_blank" rel="noreferrer" href={x.url} className={styles.btn}>GitHub</a>
+              <a target="_blank" rel="noreferrer" href={x.html_url} className={styles.btn}>GitHub</a>
               </div>
             </div>
           ))
