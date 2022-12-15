@@ -16,18 +16,18 @@
   height: calc(3vw + 1.5vh + 2.5vmin);
   margin-top: 13px;
   margin-left: 60px;
-  font-family: 'Arial';
+  font-family: Optima, sans-serif;
   font-size: calc(1vw + 1vh + 2.5vmin);
   text-align: center;
   color: rgba(10, 86, 119);
-  border: 5px rgba(9, 88, 144) outset;
+  border: 4px rgba(9, 88, 144) outset;
   text-decoration: none !important;
   transition: 0.5s;
 }
 
 .navlinks {
   margin-right: 60px;
-  font-family: 'Cormorant Garamond';
+  font-family: Optima, sans-serif;
   font-size: calc(0.9vw + 0.9vh + 0.5vmin);
   display: inline-block;
   margin-left: 20px;

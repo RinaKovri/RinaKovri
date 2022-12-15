@@ -1,5 +1,5 @@
 //import React, { useState } from 'react';
-//import Flower from '../flower/flower';
+import Flower from '../flower/flower';
 import styles from './home.module.scss';
 
 
