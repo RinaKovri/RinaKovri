@@ -9,6 +9,10 @@
   border-radius: 15px;
 }
 
+@mixin text {
+  font-family: Optima, sans-serif;
+}
+
 .cvBody {
   width: 93vw;
   margin-left: 30px;
@@ -27,13 +31,13 @@
 }
 
 .h2left {
+  @include text();
   width: 20vw;
   height: fit-content;
   text-align: center;
   margin-left: 20px;
   background-color: rgba(242, 242, 250, 0.9);
   border-radius: 5px;
-  font-family: Optima, sans-serif;
   font-size: calc(0.2vw + 0.2vh + 2.5vmin);
   font-weight: lighter;
   color: rgba(29, 74, 108);
@@ -41,7 +45,7 @@
 }
 
 .leftItems {
-  font-family: Optima, sans-serif;
+  @include text();
   font-size: calc(0.01vw + 0.01vh + 2.5vmin);
   color: rgba(242, 242, 250, 0.9);
   text-shadow: 2px 2px rgb(15, 53, 80);
@@ -50,9 +54,9 @@
 }
 
 .leftdate {
+  @include text();
   list-style-type: none;
   padding: 10px;
-  font-family: Optima, sans-serif;
   font-size: calc(0.001vh + 0.001vh + 2vmin);
   color: rgba(242, 242, 250, 0.9);
   font-style: italic;
@@ -69,13 +73,13 @@
 }
 
 .h2right {
+  @include text();
   margin-left: 8vw;
   width: 20vw;
   height: fit-content;
   text-align: center;
   background-color:  rgb(21, 87, 137, 0.9);
   border-radius: 5px;
-  font-family: Optima, sans-serif;
   font-size: calc(0.2vw + 0.2vh + 2.5vmin);
   font-weight: lighter;
   color: rgb(253, 253, 255);
@@ -87,7 +91,7 @@
 }
 
 .rightItems {
-  font-family: Optima, sans-serif;
+  @include text();
   font-size: calc(0.2vw + 0.2vh + 2.5vmin);
   color: rgb(15, 53, 80, 0.9);
   text-shadow: 1px 1px rgb(218, 226, 234);
@@ -95,8 +99,8 @@
 }
 
 .rightdate {
+  @include text();
   padding: 10px;
-  font-family: Optima, sans-serif;
   font-size: calc(0.01vw + 0.01vh + 2vmin);
   color: rgba(29, 74, 108, 0.95);
   font-style: italic;
@@ -104,9 +108,9 @@
 }
 
 .rightP {
+  @include text();
   margin-right: 10px;
   flex-direction: column;
-  font-family: Optima, sans-serif;
   font-size: calc(0.01vw + 0.01vh + 2.2vmin);
   color: rgba(29, 74, 108, 0.9);
   line-height: 30px;

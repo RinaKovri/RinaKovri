@@ -13,9 +13,13 @@
     border-radius: 15px;
 }
 
+@mixin text {
+    font-family: Optima, sans-serif;
+}
+
 .header2 {
+    @include text();
     text-align: center;
-    font-family: 'Cormorant Garamond';
     font-size: calc(0.8vw + 0.8vh + 1vmin);
     font-weight: lighter;
     color: rgb(9, 60, 107);
@@ -36,7 +40,7 @@
 }
 
 .header4 {
-    font-family: 'Cormorant Garamond';
+    @include text();
     font-size: calc(0.8vw + 0.8vh + 1vmin);
     font-weight: bold;
     color: rgb(213, 222, 230);
@@ -55,16 +59,17 @@
 }
 
 .text1 {
+    @include text();
     text-align: sart;
-    font-family: 'Cormorant Garamond';
     font-size: calc(0.6vw + 0.6vh + 1vmin);
     color: rgb(251, 251, 251);
     line-height: 43px;
     text-shadow: 1px 1px rgb(12, 60, 90);
 }
+
 .text2 {
+    @include text();
     text-align: sart;
-    font-family: 'Cormorant Garamond';
     font-size: calc(0.6vw + 0.6vh + 1vmin);
     color: rgb(9, 63, 107);
     line-height: 43px;
@@ -73,7 +78,7 @@
 
 
 .footer {
-    font-family: 'Cormorant Garamond';
+    @include text();
     font-size: calc(0.03vw + 0.03vh + 2.5vmin);
     font-weight: lighter;
     color: rgba(254, 252, 255, 0.9);
@@ -82,8 +87,9 @@
 
 i {
     font-size: larger;
-    color: white;
-    text-shadow: 1px 1px rgb(12, 60, 90);
+    color: rgb(6, 52, 81);
+    text-shadow: 1px 1px rgb(232, 237, 240);
+    text-decoration-line: underline;
 }
 
 
