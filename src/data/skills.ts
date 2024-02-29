@@ -6,22 +6,30 @@ export interface ISkill {
 export const mySkills: ISkill[] = [
     {
         key: 0,
-        skill: 'HTML'
-    },
-    {
-        key: 1,
-        skill: 'CSS'
-    },
-    {
-        key: 2,
-        skill: 'TypeScript'
-    },
-    {
-        key: 3,
-        skill: 'Unity + C#'
+        skill: 'Javascript'
     },
     {
         key: 4,
+        skill: 'TypeScript'
+    },
+    {
+        key: 1,
+        skill: 'HTML'
+    },
+    {
+        key: 2,
+        skill: 'CSS'
+    },
+    {
+        key: 3,
         skill: 'Git'
+    },
+    {
+        key: 4,
+        skill: 'NodeJS'
+    },
+    {
+        key: 4,
+        skill: 'Python'
     },
 ]
